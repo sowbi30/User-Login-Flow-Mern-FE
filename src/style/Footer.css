@@ -1,0 +1,27 @@
+
+.footer-container {
+  height: 150px;
+    background-color: rgba(0, 0, 0, 0.956);
+    position: relative; /* Orange background color */
+    padding-top: 13px;
+  }
+  
+  .social-icons {
+    margin-bottom: 1rem;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin: 0 1rem;
+    color: rgba(128, 128, 128, 0.571); /* White icon color */
+  }
+
+  .icon:hover{
+    color: whitesmoke; 
+  }
+  
+  .copyright {
+    margin: 0;
+    color:rgba(128, 128, 128, 0.571);
+  }
+  

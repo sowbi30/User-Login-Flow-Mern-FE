@@ -1,0 +1,83 @@
+/* contact.css */
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; /* Add padding for better spacing */
+    
+  }
+  
+  .map-container {
+    width: 48%; /* Adjust width as needed */
+    box-sizing: border-box;
+    /* border: 1px solid #cccccc6f;  */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    overflow: hidden; /* Hide any overflow content */
+    padding: 20px;
+   
+  }
+  .map-container h3{
+    color:grey;
+    text-align: center  ;
+  }
+  
+  .map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0; /* Remove border from the iframe */
+    border-radius: 20px;
+    height: 85%;
+   
+  }
+  
+  .form-container {
+    width: 48%; /* Adjust width as needed */
+    box-sizing: border-box;
+    /* border: 1px solid #ccc;  */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    overflow: hidden; /* Hide any overflow content */
+    padding: 20px; /* Add padding for better spacing */
+
+  }
+  
+  .form-container h2 {
+    color: rgb(110, 1, 1); /* Bootstrap success color */
+    text-align: center;
+  }
+  
+  .form-container p {
+    color: #c33f10; /* Bootstrap secondary color */
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column; /* Align form inputs vertically */
+  }
+  
+  .contact-inputs {
+    margin-bottom: 15px; /* Adjust spacing between inputs */
+  }
+  
+  /* Add styles for the form inputs */
+  .contact-inputs input,
+  .contact-inputs textarea,
+  .contact-inputs button {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #28a745; /* Bootstrap success color */
+    border-radius: 5px;
+  }
+  
+  /* Style for the submit button */
+  .contact-inputs button {
+    background-color: #28a745; /* Bootstrap success color */
+    color: #fff; /* White text */
+    cursor: pointer;
+  }
+  
+  /* Style for the submit button on hover */
+  .contact-inputs button:hover {
+    background-color: #218838; /* Slightly darker shade on hover */
+  }
+  
